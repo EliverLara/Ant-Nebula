@@ -47,6 +47,21 @@
       }
     }
   }
+  row{
+    &:selected{
+      &:backdrop{
+        color: $backdrop_selected_bg_color;
+        label{
+          color: $backdrop_selected_bg_color;
+        }  
+      }
+      background: transparent;
+      color: $selected_bg_color;
+      label{
+        color: $selected_bg_color;
+      }
+    }
+  }
 
     //elementary os file manager
     &.source-list{
@@ -72,6 +87,10 @@
   paned & { &.left, &.right, &.left:dir(rtl), &:dir(rtl), &:dir(ltr), & {
     border-style: none;
     border-color: $borders_color;
+    list {
+      background-color: darken(#F4F3EE, 1%); 
+      color: $headerbar_color; 
+     }
   }
 }
 }

@@ -6,14 +6,14 @@ gulp.task('styles', function() {
     gulp.src('gtk-3.20/**/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./gtk-3.20/'))
-        .pipe(exec(' gsettings set org.gnome.desktop.interface gtk-theme "Ant"'))
+        .pipe(exec(' gsettings set org.gnome.desktop.interface gtk-theme "Nebula"'))
 });
 
 gulp.task('shell-style', function() {
     gulp.src('gnome-shell/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./gnome-shell/'))
-        .pipe(exec('gsettings set org.gnome.shell.extensions.user-theme name "Ant"'))
+        .pipe(exec('gsettings set org.gnome.shell.extensions.user-theme name "Nebula"'))
 });
 
 //Watch task
