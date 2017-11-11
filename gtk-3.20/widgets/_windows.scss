@@ -67,6 +67,7 @@ decoration {
 }
 
 
+
 headerbar.selection-mode button.titlebutton,
 .titlebar.selection-mode button.titlebutton {
   @include _button_text_shadow(white, $selected_bg_color);

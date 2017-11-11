@@ -1,21 +1,21 @@
 /* Ant palet */
-@define-color lime #B3E235;
-@define-color cyan #00b0ff;
-@define-color yellow #f1c40f;
+@define-color lime #84ff39;
+@define-color cyan #00e8c6;
+@define-color yellow #f3d56e;
 @define-color orange #f39c12;
-@define-color purple #9b59b6;
-@define-color red #FF044A;
+@define-color purple #c74ded;
+@define-color red #ff007a;
 
 /* default color scheme */
-@define-color bg_color #EEEEEE;
+@define-color bg_color #dcdcdc;
 @define-color fg_color #31363D;
 @define-color base_color #f8f8f8;
 @define-color text_color #31363D;
 @define-color borders transparent;
-@define-color header_bg_color #EEEEEE;
-@define-color header_fg_color #31363D;
+@define-color header_bg_color #23262E;
+@define-color header_fg_color #f8f8f8;
 /*@define-color selected_bg_color #00b0ff;*/
-@define-color selected_bg_color #ff5d73;
+@define-color selected_bg_color #00b0ff;
 /*@define-color selected_bg_color #33CBBF;
 */@define-color selected_fg_color #f8f8f8;
 @define-color tooltip_bg_color #f8f8f8;
@@ -52,8 +52,8 @@
 
 /* widget colors */
 @define-color button_bg_color @theme_base_color;
-@define-color menubar_bg_color @theme_bg_color;
-@define-color menubar_fg_color @theme_fg_color;
+@define-color menubar_bg_color @header_bg_color;
+@define-color menubar_fg_color @header_fg_color;
 @define-color toolbar_bg_color @theme_bg_color;
 @define-color toolbar_fg_color @theme_fg_color;
 @define-color menu_bg_color @theme_base_color;

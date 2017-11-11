@@ -14,8 +14,8 @@
    version="1.1"
    viewBox="0 0 5.2916666 5.2916669"
    id="svg11"
-   sodipodi:docname="minimize_focused_prelight.svg"
-   inkscape:version="0.92+devel unknown">
+   sodipodi:docname="minimize_unfocused_prelight.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
   <defs
      id="defs15" />
   <sodipodi:namedview
@@ -29,18 +29,18 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
-     inkscape:window-height="705"
+     inkscape:window-height="732"
      id="namedview13"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="17.9637"
-     inkscape:cx="7"
+     inkscape:zoom="40.277984"
+     inkscape:cx="1.5255452"
      inkscape:cy="7"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg11">
+     inkscape:current-layer="titlebutton-minimize-hover">
     <sodipodi:guide
        position="2.6217223,3.8294822"
        orientation="1,0"
@@ -60,7 +60,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -77,7 +77,8 @@
        d="m 461.9,40.854 c 230.38,0 417.15,186.76 417.15,417.15 0,230.38 -186.76,417.15 -417.15,417.15 -230.38,0 -417.15,-186.76 -417.15,-417.15 0,-230.39 186.77,-417.15 417.15,-417.15"
        fill="#fac536"
        id="path6"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       style="fill:#f3d56e;fill-opacity:1" />
     <path
        d="m 195.74,495.95 h 532.33 c 20.604,0 37.458,-16.85 37.458,-37.458 v -0.98773 c 0,-20.608 -16.854,-37.458 -37.458,-37.458 H 195.74 c -20.605,0 -37.458,16.85 -37.458,37.458 v 0.98773 c 0,20.608 16.853,37.458 37.458,37.458"
        fill="#975914"
