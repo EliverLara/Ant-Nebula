@@ -5626,6 +5626,12 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   .nautilus-window notebook > stack:only-child:backdrop {
     background-color: #243035; }
 
+.nautilus-window searchbar {
+  border-top: 1px solid rgba(0, 0, 0, 0.12); }
+
+.nautilus-window .searchbar-container {
+  margin-top: -1px; }
+
 .nautilus-circular-button {
   border-radius: 20px;
   -gtk-outline-radius: 20px; }
@@ -5661,9 +5667,9 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
     headerbar .subtitle:selected,
     headerbar .nautilus-desktop .nautilus-canvas-item .subtitle:selected {
       color: #fefefe; }
-  .nautilus-desktop .nautilus-list .dim-label:selected, .nautilus-desktop .nautilus-list label.separator:selected, .nautilus-desktop .nautilus-list .titlebar:not(headerbar) .subtitle:selected, .titlebar:not(headerbar) .nautilus-desktop .nautilus-list .subtitle:selected, .nautilus-desktop .nautilus-list
+  .nautilus-desktop s .nautilus-list .dim-label:selected, .nautilus-desktop s .nautilus-list label.separator:selected, .nautilus-desktop s .nautilus-list .titlebar:not(headerbar) .subtitle:selected, .titlebar:not(headerbar) .nautilus-desktop s .nautilus-list .subtitle:selected, .nautilus-desktop s .nautilus-list
   headerbar .subtitle:selected,
-  headerbar .nautilus-desktop .nautilus-list .subtitle:selected {
+  headerbar .nautilus-desktop s .nautilus-list .subtitle:selected {
     color: #fefefe; }
 
 /*********

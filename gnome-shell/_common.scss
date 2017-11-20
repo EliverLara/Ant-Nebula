@@ -497,7 +497,7 @@ StScrollBar {
 
 .popup-menu {
   min-width: 15em;
-
+  background-color: transparent;
   .popup-menu-arrow { } //defined globally in the TOP BAR
   .popup-sub-menu {
     background-color: darken($bg_color,5%);
