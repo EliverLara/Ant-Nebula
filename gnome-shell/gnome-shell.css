@@ -918,6 +918,8 @@ StScrollBar {
 
 .message-list-clear-button.button {
   background-color: transparent;
+  border: 1px solid rgba(68, 71, 90, 0.4);
+  box-shadow: none;
   margin: 1.5em 1.5em 0; }
   .message-list-clear-button.button:hover, .message-list-clear-button.button:focus {
     background-color: white; }
@@ -954,7 +956,6 @@ StScrollBar {
     padding: 10px 10px 10px 3px; }
 
 .message-icon-bin > StIcon {
-  color: black;
   icon-size: 16px;
   -st-icon-style: symbolic; }
 
@@ -971,11 +972,7 @@ StScrollBar {
 .message-secondary-bin > StIcon {
   icon-size: 16px; }
 
-.message-title {
-  color: #13141a; }
-
 .message-content {
-  color: black;
   padding: 10px; }
   .message-content *:hover > StIcon,
   .message-content *:focus > StIcon {
@@ -1422,13 +1419,14 @@ StScrollBar {
   width: 34em;
   margin: 5px;
   border-radius: 3px;
-  color: #1e1f29;
-  background-color: #f4f4f4;
-  border: 1px solid rgba(68, 71, 90, 0.4); }
+  color: #eee;
+  background-color: rgba(30, 31, 41, 0.9);
+  border: 1px solid rgba(68, 71, 90, 0.4);
+  box-shadow: 0 1px 4px black; }
   .notification-banner:hover {
-    background-color: #f4f4f4; }
+    background-color: rgba(30, 31, 41, 0.9); }
   .notification-banner:focus {
-    background-color: rgba(244, 244, 244, 0.95); }
+    background-color: rgba(30, 31, 41, 0.9); }
   .notification-banner .notification-icon {
     padding: 5px; }
   .notification-banner .notification-content {
@@ -1437,18 +1435,19 @@ StScrollBar {
   .notification-banner .secondary-icon {
     icon-size: 1.09em; }
   .notification-banner .notification-actions {
-    background-color: rgba(68, 71, 90, 0.4);
+    background-color: #1a1b23;
     padding-top: 2px;
     spacing: 1px; }
   .notification-banner .notification-button {
     padding: 4px 4px 5px;
-    background-color: rgba(231, 231, 231, 0.95); }
+    background-color: rgba(30, 31, 41, 0.9); }
     .notification-banner .notification-button:first-child {
       border-radius: 0 0 0 3px; }
     .notification-banner .notification-button:last-child {
       border-radius: 0 0 3px 0; }
     .notification-banner .notification-button:hover, .notification-banner .notification-buttonfocus {
-      background-color: rgba(239, 239, 239, 0.95); }
+      background-color: #1a1b23;
+      color: #00c1e4; }
 
 .summary-source-counter {
   font-size: 10pt;
