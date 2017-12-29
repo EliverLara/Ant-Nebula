@@ -1015,6 +1015,8 @@ StScrollBar {
 
         .message-list-clear-button.button {
           background-color: transparent;
+          border: 1px solid $borders_color;
+          box-shadow: none;
           &:hover,&:focus { background-color: lighten($bg_color,5%); }
           margin: 1.5em 1.5em 0;
         }
@@ -1058,7 +1060,7 @@ StScrollBar {
           }
 
           .message-icon-bin > StIcon {
-            color: darken($fg_color,20%);
+            //color: red;
             icon-size: 16px;
             -st-icon-style: symbolic;
           }
@@ -1080,11 +1082,11 @@ StScrollBar {
           }
 
           .message-title {
-            color: darken($fg_color,5%);
+            //color: darken($fg_color,5%);
           }
 
           .message-content {
-            color: darken($fg_color,20%);
+          //  color: darken($fg_color,20%);
             padding: 10px;
             *:hover > StIcon,
             *:focus > StIcon, {
@@ -1548,27 +1550,27 @@ StScrollBar {
     width: 34em;
     margin: 5px;
     border-radius: 3px;
-    color: $_bubble_fg_color;
-    background-color: $bg_color;
+    color: $topbar_color;
+    background-color: transparentize($fg_color, 0.1);
     border: 1px solid $borders_color;
-    //box-shadow: 0 1px 4px black;
-    &:hover { background-color: $bg_color; }
-    &:focus { background-color: $_bubble_bg_color; }
+    box-shadow: 0 1px 4px black;
+    &:hover { background-color: transparentize($fg_color, 0.1); }
+    &:focus { background-color: transparentize($fg_color, 0.1); }
 
     .notification-icon { padding: 5px; }
     .notification-content { padding: 5px; spacing: 5px; }
     .secondary-icon { icon-size: 1.09em; }
     .notification-actions {
-      background-color: $borders_color;
+      background-color: darken($fg_color, 2%);
       padding-top: 2px;
       spacing: 1px;
     }
     .notification-button {
       padding: 4px 4px 5px;
-      background-color: darken($_bubble_bg_color,5%);
+      background-color: transparentize($fg_color, 0.1);
       &:first-child { border-radius: 0 0 0 3px; }
       &:last-child { border-radius: 0 0 3px 0; }
-      &:hover, &focus { background-color: darken($_bubble_bg_color,2%); }
+      &:hover, &focus { background-color: darken($fg_color,2%); color: $selected_bg_color;}
     }
   }
   .summary-source-counter {
