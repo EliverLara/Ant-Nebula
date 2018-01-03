@@ -1011,6 +1011,13 @@ StScrollBar {
       /* Message list */
       .message-list {
         width: 31.5em;
+        .message-title{
+          color: darken($fg_color,5%);
+          text-shadow: 0 1px 0 -1px transparentize(#fff, .2);
+        }
+        .message-content{
+          text-shadow: 0 0px 0px 0px transparentize(#000, .5);
+        }
       }
 
         .message-list-clear-button.button {
@@ -1060,7 +1067,6 @@ StScrollBar {
           }
 
           .message-icon-bin > StIcon {
-            //color: red;
             icon-size: 16px;
             -st-icon-style: symbolic;
           }
@@ -1075,6 +1081,7 @@ StScrollBar {
             /* HACK: the label should be baseline-aligned with a 1em label,
                      fake this with some bottom padding */
             padding-bottom: 0.13em;
+            text-shadow: 0 1px 0 -1px transparentize(#fff, .2);
           }
 
           .message-secondary-bin > StIcon {
@@ -1083,6 +1090,7 @@ StScrollBar {
 
           .message-title {
             //color: darken($fg_color,5%);
+            
           }
 
           .message-content {
