@@ -88,8 +88,8 @@
     border-style: none;
     border-color: $borders_color;
     list {
-      background-color: darken(#F4F3EE, 1%); 
-      color: $headerbar_color; 
+      background-color: if($variant == 'light', darken(#F4F3EE, 1%), $base_color); 
+      color: if($variant == 'light', $headerbar_color, $fg_color); 
      }
   }
 }
