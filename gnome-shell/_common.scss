@@ -45,7 +45,9 @@ stage {
   }
   &:focus {
     @include button(focus);
-    
+    &:hover {
+      @include button(focus);
+    }
   }
   &:hover {
     @include button(hover);
@@ -227,6 +229,7 @@ StScrollBar {
     color: $error_color;
     &:focus{
       color: $error_color;
+      border: 1px solid  transparentize($error_color, 0.3);
     }
   }
 }
