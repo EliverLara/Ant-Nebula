@@ -3002,9 +3002,9 @@ row {
   row.activatable:selected:active {
     box-shadow: inset 0 2px 3px -1px rgba(0, 0, 0, 0.5); }
   row.activatable:selected.has-open-popup, row.activatable:selected:hover {
-    background-color: rgba(0, 176, 255, 0.2); }
+    background-color: rgba(0, 176, 255, 0.5); }
   row.activatable:selected:backdrop {
-    background-color: transparent; }
+    background-color: rgba(0, 176, 255, 0.6); }
 
 /*********
  * Menus *
@@ -4163,23 +4163,17 @@ treeview ~ scrollbar.vertical {
   .sidebar list {
     background-color: #f8f8f8; }
   .sidebar row:selected {
-    background: #f8f8f8;
-    color: #00b0ff; }
-    .sidebar row:selected:backdrop {
-      color: rgba(0, 176, 255, 0.6); }
-      .sidebar row:selected:backdrop label {
-        color: rgba(0, 176, 255, 0.6); }
-    .sidebar row:selected label {
-      color: #00b0ff; }
-  .sidebar row:selected {
     background: transparent;
     color: #00b0ff; }
-    .sidebar row:selected:backdrop {
-      color: rgba(0, 176, 255, 0.6); }
-      .sidebar row:selected:backdrop label {
-        color: rgba(0, 176, 255, 0.6); }
     .sidebar row:selected label {
       color: #00b0ff; }
+    .sidebar row:selected:backdrop {
+      color: rgba(0, 176, 255, 0.6);
+      background: transparent; }
+      .sidebar row:selected:backdrop label {
+        color: rgba(0, 176, 255, 0.6); }
+    .sidebar row:selected:hover {
+      background-color: rgba(0, 176, 255, 0.2); }
   .sidebar.source-list {
     background: #f8f8f8;
     padding: 4px 0px; }

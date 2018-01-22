@@ -32,33 +32,23 @@
   }
 
   list { background-color: $base_color; }
+
   row{
     &:selected{
-      &:backdrop{
-        color: $backdrop_selected_bg_color;
-        label{
-          color: $backdrop_selected_bg_color;
-        }  
-      }
-      background: $base_color;
-      color: $selected_bg_color;
-      label{
-        color: $selected_bg_color;
-      }
-    }
-  }
-  row{
-    &:selected{
-      &:backdrop{
-        color: $backdrop_selected_bg_color;
-        label{
-          color: $backdrop_selected_bg_color;
-        }  
-      }
       background: transparent;
       color: $selected_bg_color;
       label{
         color: $selected_bg_color;
+      }
+      &:backdrop{
+        color: $backdrop_selected_bg_color;
+        background: transparent;
+        label{
+          color: $backdrop_selected_bg_color;
+        }  
+      }
+      &:hover{
+        background-color: transparentize($selected_bg_color, 0.8);
       }
     }
   }
