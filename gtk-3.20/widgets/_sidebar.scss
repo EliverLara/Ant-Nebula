@@ -34,6 +34,7 @@
   list { background-color: $base_color; }
 
   row{
+    padding: 7px 14px;
     &:selected{
       background: transparent;
       color: $selected_bg_color;
