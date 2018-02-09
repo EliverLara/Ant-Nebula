@@ -1,7 +1,7 @@
 
 ![](Art/logo.png)
 
-![](Art/screenshot.png)
+![](Art/Nebula.png)
 
 
 #### Installation
@@ -11,11 +11,10 @@ Extract the zip file to the themes directory i.e. `/usr/share/themes/` or `~/.th
 To set the theme in Gnome, run the following commands in Terminal,
 
 ```
-gsettings set org.gnome.desktop.interface gtk-theme "Ant"
-gsettings set org.gnome.desktop.wm.preferences theme "Ant"
+gsettings set org.gnome.desktop.interface gtk-theme "Ant-Nebula"
+gsettings set org.gnome.desktop.wm.preferences theme "Ant-Nebula"
 ```
 or Change via distribution specific tool.
 
 ### Notes:
 * This theme is based on the [evopop-gtk-theme](https://github.com/solus-project/evopop-gtk-theme).
-* Icon theme in the screenshot is [Boston](https://www.gnome-look.org/p/1012402/).
