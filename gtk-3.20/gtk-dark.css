@@ -2341,8 +2341,7 @@ headerbar {
   min-height: 27px;
   background-color: #222e32;
   color: #f8f8f8;
-  border-radius: 0;
-  -GtkPaned-handle-size: 0; }
+  border-radius: 0; }
   .titlebar:backdrop:not(headerbar),
   headerbar:backdrop {
     border-color: rgba(97, 104, 106, 0.19);
