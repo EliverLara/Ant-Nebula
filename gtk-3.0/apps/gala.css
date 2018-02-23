@@ -125,3 +125,7 @@
         0 3px 4px alpha (#000, 0.15),
         0 3px 3px -3px alpha (#000, 0.35);
 }
+
+.panel .popover GtkLabel {
+    color: @text_color;
+}
