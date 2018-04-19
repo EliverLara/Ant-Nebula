@@ -4529,7 +4529,7 @@ tooltip {
   box-shadow: none;
   text-shadow: 0 1px black; }
   tooltip.background {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(35, 38, 46, 0.8);
     background-clip: padding-box;
     border: 1px solid rgba(255, 255, 255, 0.1); }
   tooltip decoration {
