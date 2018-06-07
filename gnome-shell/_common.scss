@@ -45,7 +45,9 @@ stage {
   }
   &:focus {
     @include button(focus);
-    
+    &:hover {
+      @include button(focus);
+    }
   }
   &:hover {
     @include button(hover);
