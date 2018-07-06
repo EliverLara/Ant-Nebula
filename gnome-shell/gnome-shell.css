@@ -679,6 +679,7 @@ StScrollBar {
 
 /* TOP BAR */
 #panel {
+  background-gradient-direction: none;
   background-color: rgba(3, 3, 5, 0.65);
   /* transition from solid to transparent */
   transition-duration: 500ms;
