@@ -12,7 +12,7 @@ headerbar {
   &:backdrop {
     border-color: $backdrop_borders_color;
     background-image: none;
-
+    background-color: $backdrop_headerbar_bg_color;
     transition: $backdrop_transition;
   }
 
