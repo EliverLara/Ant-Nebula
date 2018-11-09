@@ -2342,6 +2342,7 @@ headerbar {
   headerbar:backdrop {
     border-color: rgba(110, 110, 110, 0.28);
     background-image: none;
+    background-color: #2a2d37;
     transition: 200ms ease-out; }
   .titlebar:not(headerbar) .title,
   headerbar .title {
