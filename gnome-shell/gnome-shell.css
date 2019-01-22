@@ -1047,7 +1047,7 @@ StScrollBar {
   color: #f8f8f8;
   border-radius: 32px;
   /* wish we could do 50% */
-  border: 1px solid rgba(68, 74, 89, 0.93);
+  border: 1px solid #181a20;
   background: transparent;
   padding: 13px; }
   .system-menu-action:hover, .system-menu-action:focus {
