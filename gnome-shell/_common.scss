@@ -1170,7 +1170,7 @@ StScrollBar {
     color: $fg_color;
    
     border-radius: 32px; /* wish we could do 50% */
-    border: 1px solid lighten($bg_color, 15%);
+    border: 1px solid $borders_color;
     background: transparent;
     padding: 13px;
 
