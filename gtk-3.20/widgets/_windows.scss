@@ -73,10 +73,7 @@ button.titlebutton {
   min-height: 32px;
   padding: 0 3px;
   box-shadow: none;
-  background-image: -gtk-scaled(url("../assets/maximize.png"),url("../assets/max@2.png"));
-  &:hover,&:active {
-    background-image: -gtk-scaled(url("../assets/maximize_prelight.png"),url("../assets/max_prelight@2.png"));
-  }
+
   &.close {
     background-image: -gtk-scaled(url("../assets/close.png"),url("../assets/close@2.png"));
     &:hover,&:active {
