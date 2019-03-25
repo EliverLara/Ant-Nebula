@@ -2548,6 +2548,30 @@ headerbar {
     headerbar .linked > button:active:backdrop label,
     headerbar .linked > button:checked:backdrop label {
       color: rgba(0, 176, 255, 0.6); }
+  .titlebar:not(headerbar) .linked:not(.vertical) > entry, .titlebar:not(headerbar) entry,
+  headerbar .linked:not(.vertical) > entry,
+  headerbar entry {
+    border-color: rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+    background: #2a2d37;
+    color: #f8f8f8;
+    caret-color: #f8f8f8; }
+    .titlebar:not(headerbar) .linked:not(.vertical) > entry *, .titlebar:not(headerbar) entry *,
+    headerbar .linked:not(.vertical) > entry *,
+    headerbar entry * {
+      color: #f8f8f8; }
+    .titlebar:not(headerbar) .linked:not(.vertical) > entry:focus, .titlebar:not(headerbar) entry:focus,
+    headerbar .linked:not(.vertical) > entry:focus,
+    headerbar entry:focus {
+      border-color: #00b0ff; }
+    .titlebar:not(headerbar) .linked:not(.vertical) > entry:backdrop, .titlebar:not(headerbar) entry:backdrop,
+    headerbar .linked:not(.vertical) > entry:backdrop,
+    headerbar entry:backdrop {
+      background: #2a2d37; }
+    .titlebar:not(headerbar) .linked:not(.vertical) > entry image:hover, .titlebar:not(headerbar) entry image:hover,
+    headerbar .linked:not(.vertical) > entry image:hover,
+    headerbar entry image:hover {
+      color: #00b0ff; }
   .selection-mode.titlebar:not(headerbar),
   headerbar.selection-mode {
     color: #fefefe;
