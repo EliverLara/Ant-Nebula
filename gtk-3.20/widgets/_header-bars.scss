@@ -141,6 +141,24 @@ headerbar {
       }
     }
   }
+  
+  .linked:not(.vertical) > entry, entry { 
+    border-color:$borders_color;
+    box-shadow: none;
+    background: lighten($headerbar_color, 3%); 
+    color: $headerbar_fg_color;
+    caret-color: $headerbar_fg_color;
+    *{ color: $headerbar_fg_color; }
+    &:focus {
+      border-color: entry_focus_border();
+    }
+    &:backdrop {
+      background: lighten($headerbar_color, 3%); ;
+    }
+    & image:hover{
+      color:$selected_bg_color;
+    }
+  }
   // End reset style
 
   &.selection-mode {
