@@ -288,6 +288,10 @@ button {
       notebook > header > tabs > arrow:hover:active,
       button.flat:hover:active {
         transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+    notebook > header > tabs > arrow.image-button:hover,
+    button.flat.image-button:hover {
+      background-color: #00b0ff;
+      color: #fefefe; }
   notebook > header > tabs > arrow:hover,
   button:hover {
     color: #fefefe;
@@ -547,6 +551,16 @@ button {
     box-shadow: none;
     text-shadow: 0 1px black;
     -gtk-icon-shadow: 0 1px black; }
+    .app-notification button.flat.image-button:hover, popover.background.touch-selection button.flat.image-button:hover, popover.background.magnifier button.flat.image-button:hover,
+    .osd
+    button.flat.image-button:hover {
+      color: #fefefe;
+      border-color: #0f1014;
+      background-color: rgba(24, 26, 31, 0.93);
+      background-clip: padding-box;
+      text-shadow: 0 1px black;
+      -gtk-icon-shadow: 0 1px black;
+      outline-color: rgba(254, 254, 254, 0.3); }
     .app-notification button.flat:hover, popover.background.touch-selection button.flat:hover, popover.background.magnifier button.flat:hover,
     .osd
     button.flat:hover {
