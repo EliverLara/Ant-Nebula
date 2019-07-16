@@ -32,7 +32,8 @@
     border: none;
     background-color: transparentize($panel_bg_color, 1);
     box-shadow: none;
-
+    font-weight: normal;
+    
     &:hover {
       border: none;
       background-color: lighten($panel_bg_color, 10%);
