@@ -5945,7 +5945,8 @@ LibraryWindow .the-button-in-the-combobox {
   border-radius: 0;
   border: none;
   background-color: rgba(35, 38, 46, 0);
-  box-shadow: none; }
+  box-shadow: none;
+  font-weight: normal; }
   .xfce4-panel.panel button.flat:hover {
     border: none;
     background-color: #393e4b; }
