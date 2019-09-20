@@ -1595,7 +1595,7 @@ StScrollBar {
     .secondary-icon { icon-size: 1.09em; }
     .notification-actions {
       background-color: darken($bg_color, 2%);
-      padding-top: 2px;
+      padding: 2px;
       spacing: 1px;
     }
     .notification-button {
