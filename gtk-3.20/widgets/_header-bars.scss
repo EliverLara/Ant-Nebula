@@ -179,7 +179,17 @@ headerbar {
   .linked > button:hover,
   .linked > button:backdrop { @extend %linked-header; }
   // End reset style
-
+  .linked:not(.vertical) > entry { 
+    border-color:$dark_borders_color;
+    box-shadow: none;
+    background: lighten($headerbar_color, 2%); 
+    color: $headerbar_fg_color;
+    caret-color: $headerbar_fg_color;
+    *{ color: $headerbar_fg_color; }
+    &:focus {
+      border-color: entry_focus_border();
+    }
+  }
   .path-bar-box {
     .dim-label {
       color: transparent;
