@@ -8,3 +8,5 @@ node_modules/
 
 __gnome-shell
 _gnome-shell
+
+install.sh
