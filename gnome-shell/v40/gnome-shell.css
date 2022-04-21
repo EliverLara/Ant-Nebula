@@ -494,7 +494,7 @@ StScrollBar {
   background-color: transparent;
   color: #C3C7D1; }
   .popup-menu .popup-sub-menu {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #1f2128;
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); }
   .popup-menu .popup-menu-content {
     padding: 16px 0; }
@@ -508,12 +508,12 @@ StScrollBar {
       padding-right: 0;
       padding-left: 1.75em; }
     .popup-menu .popup-menu-item:checked {
-      background-color: rgba(26, 28, 34, 0.93);
+      background-color: rgba(44, 48, 58, 0.93);
       color: #fefefe;
       box-shadow: inset 1px 0px 0px #1ab8ff;
       font-weight: normal; }
       .popup-menu .popup-menu-item:checked:hover {
-        background-color: rgba(26, 28, 34, 0.93);
+        background-color: rgba(44, 48, 58, 0.93);
         color: #00b0ff; }
     .popup-menu .popup-menu-item.selected {
       background-color: rgba(195, 199, 209, 0.1);
