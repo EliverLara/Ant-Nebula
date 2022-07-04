@@ -1014,17 +1014,17 @@ StScrollBar {
   .message-content *:focus > StIcon {
     color: #fefefe; }
 
+/* Media Controls */
 .message-media-control {
-  padding: 12px;
-  color: #8991a5; }
-  .message-media-control:last-child:ltr {
-    padding-right: 18px; }
-  .message-media-control:last-child:rtl {
-    padding-left: 18px; }
+  color: #C3C7D1; }
   .message-media-control:hover {
+    background-color: #383d4a;
+    color: #fefefe; }
+  .message-media-control:active {
+    background-color: #414655;
     color: #C3C7D1; }
   .message-media-control:insensitive {
-    color: #575e71; }
+    color: #80848d; }
 
 .media-message-cover-icon {
   icon-size: 48px !important; }
