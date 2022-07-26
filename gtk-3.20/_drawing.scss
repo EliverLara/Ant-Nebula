@@ -211,6 +211,7 @@
     outline-color: transparentize($tc, 0.7);
     background-color: $c;
     text-shadow: none;
+    border: 1px solid $c;
     @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
   }
 
@@ -222,6 +223,7 @@
     outline-color: transparentize($tc, 0.7);
     background-color: $c;
     text-shadow: none;
+    border: 1px solid $c;
     @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
   }
 
@@ -262,20 +264,24 @@ box-shadow: none;
   //
   // pushed button
   //
+  $_c: if($c==$base_color, $selected_bg_color, $c);
   color: $tc;
   outline-color: transparentize($tc, 0.7);
-  background-color: if($c==$base_color, $selected_bg_color, $c);
+  background-color: $_c;
   text-shadow: none;
+  border: 1px solid $_c;
   @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
 }
   @else if $t==insensitive {
   //
   // insensitive button
   //
+  $_c: if($c==$base_color, $insensitive_bg_color, $c);
   color: if($tc==$text_color, $backdrop_text_color, $tc);
   outline-color: transparentize($tc, 0.7);
-  background-color: if($c==$base_color, $insensitive_bg_color, $c);
+  background-color: $_c;
   text-shadow: none;
+  border: 1px solid $_c;
   @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
 }
   @else if $t==insensitive-active {

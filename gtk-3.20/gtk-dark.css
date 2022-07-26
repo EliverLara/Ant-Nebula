@@ -340,6 +340,7 @@ button {
   outline-color: rgba(195, 199, 209, 0.3);
   background-color: #222e32;
   text-shadow: none;
+  border: 1px solid #222e32;
   box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
   notebook > header > tabs > arrow,
   button.flat {
@@ -363,6 +364,7 @@ button {
     outline-color: rgba(254, 254, 254, 0.3);
     background-color: #00b0ff;
     text-shadow: none;
+    border: 1px solid #00b0ff;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1);
     -gtk-icon-effect: highlight; }
   notebook > header > tabs > arrow:active, notebook > header > tabs > arrow:checked,
@@ -372,6 +374,7 @@ button {
     outline-color: rgba(254, 254, 254, 0.3);
     background-color: #009ee6;
     text-shadow: none;
+    border: 1px solid #009ee6;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1);
     transition-duration: 50ms; }
   notebook > header > tabs > arrow:active,
@@ -441,6 +444,7 @@ button {
     outline-color: rgba(195, 199, 209, 0.3);
     background-color: #28363b;
     text-shadow: none;
+    border: 1px solid #28363b;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
     notebook > header > tabs > arrow:disabled:active, notebook > header > tabs > arrow:disabled:checked,
     button:disabled:active,
@@ -652,6 +656,7 @@ button.suggested-action {
   outline-color: rgba(255, 255, 255, 0.3);
   background-color: #00e8c6;
   text-shadow: none;
+  border: 1px solid #00e8c6;
   box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
   .selection-mode button.titlebutton, button.suggested-action.flat {
     border-color: transparent;
@@ -666,12 +671,14 @@ button.suggested-action {
     outline-color: rgba(255, 255, 255, 0.3);
     background-color: #00e8c6;
     text-shadow: none;
+    border: 1px solid #00e8c6;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
   button.suggested-action:active, button.suggested-action:checked {
     color: white;
     outline-color: rgba(255, 255, 255, 0.3);
     background-color: #00e8c6;
     text-shadow: none;
+    border: 1px solid #00e8c6;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
   .selection-mode button.titlebutton:backdrop, button.suggested-action:backdrop, button.suggested-action.flat:backdrop {
     color: rgba(255, 255, 255, 0.4);
@@ -716,6 +723,7 @@ button.suggested-action {
     outline-color: rgba(255, 255, 255, 0.3);
     background-color: #00e8c6;
     text-shadow: none;
+    border: 1px solid #00e8c6;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
     button.suggested-action:disabled label {
       color: rgba(254, 254, 254, 0.7); }
@@ -776,6 +784,7 @@ button.destructive-action {
   outline-color: rgba(255, 255, 255, 0.3);
   background-color: #cc0062;
   text-shadow: none;
+  border: 1px solid #cc0062;
   box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
   button.destructive-action.flat {
     border-color: transparent;
@@ -790,12 +799,14 @@ button.destructive-action {
     outline-color: rgba(255, 255, 255, 0.3);
     background-color: #cc0062;
     text-shadow: none;
+    border: 1px solid #cc0062;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
   button.destructive-action:active, button.destructive-action:checked {
     color: white;
     outline-color: rgba(255, 255, 255, 0.3);
     background-color: #cc0062;
     text-shadow: none;
+    border: 1px solid #cc0062;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
   button.destructive-action:backdrop, button.destructive-action.flat:backdrop {
     color: rgba(255, 255, 255, 0.4);
@@ -840,6 +851,7 @@ button.destructive-action {
     outline-color: rgba(255, 255, 255, 0.3);
     background-color: #00e8c6;
     text-shadow: none;
+    border: 1px solid #00e8c6;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
     button.destructive-action:disabled label {
       color: rgba(254, 254, 254, 0.7); }
@@ -941,6 +953,7 @@ toolbar button:hover {
   outline-color: rgba(195, 199, 209, 0.3);
   background-color: #101517;
   text-shadow: none;
+  border: 1px solid #101517;
   box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
 toolbar button:active {
   font-weight: bold;
@@ -948,6 +961,7 @@ toolbar button:active {
   outline-color: rgba(195, 199, 209, 0.3);
   background-color: #050708;
   text-shadow: none;
+  border: 1px solid #050708;
   box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
 
 .inline-toolbar toolbutton > button {
@@ -1583,12 +1597,14 @@ colorswatch#add-color-button {
     outline-color: rgba(195, 199, 209, 0.3);
     background-color: #222e32;
     text-shadow: none;
+    border: 1px solid #222e32;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
     colorswatch#add-color-button overlay:hover {
       color: #C3C7D1;
       outline-color: rgba(195, 199, 209, 0.3);
       background-color: #222e32;
       text-shadow: none;
+      border: 1px solid #222e32;
       box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
     colorswatch#add-color-button overlay:backdrop {
       color: #a3a9b2;
@@ -2343,6 +2359,7 @@ GraniteWidgetsWelcome {
       outline-color: rgba(255, 255, 255, 0.3);
       background-color: #00e8c6;
       text-shadow: none;
+      border: 1px solid #00e8c6;
       box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
       .titlebar:not(headerbar) button.suggested-action:hover,
       headerbar button.suggested-action:hover {
@@ -2350,6 +2367,7 @@ GraniteWidgetsWelcome {
         outline-color: rgba(255, 255, 255, 0.3);
         background-color: #00e8c6;
         text-shadow: none;
+        border: 1px solid #00e8c6;
         box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
       .titlebar:not(headerbar) button.suggested-action:active,
       headerbar button.suggested-action:active {
@@ -2357,6 +2375,7 @@ GraniteWidgetsWelcome {
         outline-color: rgba(255, 255, 255, 0.3);
         background-color: #00e8c6;
         text-shadow: none;
+        border: 1px solid #00e8c6;
         box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
       .titlebar:not(headerbar) button.suggested-action:disabled,
       headerbar button.suggested-action:disabled {
@@ -2364,6 +2383,7 @@ GraniteWidgetsWelcome {
         outline-color: rgba(255, 255, 255, 0.3);
         background-color: #00e8c6;
         text-shadow: none;
+        border: 1px solid #00e8c6;
         box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
         .titlebar:not(headerbar) button.suggested-action:disabled label,
         headerbar button.suggested-action:disabled label {
@@ -2395,6 +2415,7 @@ GraniteWidgetsWelcome {
       outline-color: rgba(255, 255, 255, 0.3);
       background-color: #cc0062;
       text-shadow: none;
+      border: 1px solid #cc0062;
       box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
       .titlebar:not(headerbar) button.destructive-action:hover,
       headerbar button.destructive-action:hover {
@@ -2402,6 +2423,7 @@ GraniteWidgetsWelcome {
         outline-color: rgba(255, 255, 255, 0.3);
         background-color: #cc0062;
         text-shadow: none;
+        border: 1px solid #cc0062;
         box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
       .titlebar:not(headerbar) button.destructive-action:active,
       headerbar button.destructive-action:active {
@@ -2409,6 +2431,7 @@ GraniteWidgetsWelcome {
         outline-color: rgba(255, 255, 255, 0.3);
         background-color: #cc0062;
         text-shadow: none;
+        border: 1px solid #cc0062;
         box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
       .titlebar:not(headerbar) button.destructive-action:disabled,
       headerbar button.destructive-action:disabled {
@@ -2416,6 +2439,7 @@ GraniteWidgetsWelcome {
         outline-color: rgba(255, 255, 255, 0.3);
         background-color: #cc0062;
         text-shadow: none;
+        border: 1px solid #cc0062;
         box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
         .titlebar:not(headerbar) button.destructive-action:disabled label,
         headerbar button.destructive-action:disabled label {
@@ -2501,6 +2525,7 @@ GraniteWidgetsWelcome {
       outline-color: rgba(254, 254, 254, 0.3);
       background-color: #00b0ff;
       text-shadow: none;
+      border: 1px solid #00b0ff;
       box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
       .selection-mode.titlebar:not(headerbar) button.flat,
       headerbar.selection-mode button.flat {
@@ -2516,6 +2541,7 @@ GraniteWidgetsWelcome {
         outline-color: rgba(254, 254, 254, 0.3);
         background-color: #00b0ff;
         text-shadow: none;
+        border: 1px solid #00b0ff;
         box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
       .selection-mode.titlebar:not(headerbar) button:active, .selection-mode.titlebar:not(headerbar) button:checked,
       headerbar.selection-mode button:active,
@@ -2524,6 +2550,7 @@ GraniteWidgetsWelcome {
         outline-color: rgba(254, 254, 254, 0.3);
         background-color: #00b0ff;
         text-shadow: none;
+        border: 1px solid #00b0ff;
         box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
       .selection-mode.titlebar:not(headerbar) button:backdrop.flat, .selection-mode.titlebar:not(headerbar) button:backdrop,
       headerbar.selection-mode button:backdrop.flat,
@@ -2588,6 +2615,7 @@ GraniteWidgetsWelcome {
         outline-color: rgba(254, 254, 254, 0.3);
         background-color: #00b0ff;
         text-shadow: none;
+        border: 1px solid #00b0ff;
         box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
         .selection-mode.titlebar:not(headerbar) button:disabled:active, .selection-mode.titlebar:not(headerbar) button:disabled:checked,
         headerbar.selection-mode button:disabled:active,
@@ -2608,6 +2636,7 @@ GraniteWidgetsWelcome {
         outline-color: rgba(255, 255, 255, 0.3);
         background-color: #00e8c6;
         text-shadow: none;
+        border: 1px solid #00e8c6;
         box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
         .selection-mode.titlebar:not(headerbar) button.suggested-action:hover,
         headerbar.selection-mode button.suggested-action:hover {
@@ -2615,6 +2644,7 @@ GraniteWidgetsWelcome {
           outline-color: rgba(255, 255, 255, 0.3);
           background-color: #00e8c6;
           text-shadow: none;
+          border: 1px solid #00e8c6;
           box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
         .selection-mode.titlebar:not(headerbar) button.suggested-action:active,
         headerbar.selection-mode button.suggested-action:active {
@@ -2622,6 +2652,7 @@ GraniteWidgetsWelcome {
           outline-color: rgba(255, 255, 255, 0.3);
           background-color: #00e8c6;
           text-shadow: none;
+          border: 1px solid #00e8c6;
           box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
         .selection-mode.titlebar:not(headerbar) button.suggested-action:disabled,
         headerbar.selection-mode button.suggested-action:disabled {
@@ -2629,6 +2660,7 @@ GraniteWidgetsWelcome {
           outline-color: rgba(255, 255, 255, 0.3);
           background-color: #00e8c6;
           text-shadow: none;
+          border: 1px solid #00e8c6;
           box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
         .selection-mode.titlebar:not(headerbar) button.suggested-action:backdrop,
         headerbar.selection-mode button.suggested-action:backdrop {
@@ -6171,24 +6203,28 @@ ConversationListView {
   outline-color: rgba(195, 199, 209, 0.3);
   background-color: #222e32;
   text-shadow: none;
+  border: 1px solid #222e32;
   box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
   #content_frame button:hover {
     color: #C3C7D1;
     outline-color: rgba(195, 199, 209, 0.3);
     background-color: #222e32;
     text-shadow: none;
+    border: 1px solid #222e32;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
   #content_frame button:active, #content_frame button:checked {
     color: #C3C7D1;
     outline-color: rgba(195, 199, 209, 0.3);
     background-color: #00b0ff;
     text-shadow: none;
+    border: 1px solid #00b0ff;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
   #content_frame button:disabled {
     color: #a3a9b2;
     outline-color: rgba(195, 199, 209, 0.3);
     background-color: #28363b;
     text-shadow: none;
+    border: 1px solid #28363b;
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1); }
 
 #buttonbox_frame {
