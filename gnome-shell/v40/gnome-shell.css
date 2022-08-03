@@ -381,9 +381,9 @@ StScrollBar {
 
 /* Password or Authentication Dialog */
 .prompt-dialog {
-  width: 34em;
-  border: none;
-  border-radius: 2px; }
+  width: 30em;
+  border: 1px solid #1c1f25;
+  border-radius: 10px; }
   .prompt-dialog .message-dialog-main-layout {
     spacing: 24px;
     padding: 10px; }
