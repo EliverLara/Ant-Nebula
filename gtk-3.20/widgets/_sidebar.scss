@@ -4,7 +4,8 @@
 .sidebar {
   border-style: none;
   border-width: 0;
-  background-color: mix($bg_color, $base_color, 50%);
+  background-color: if($variant == 'light', darken(#F4F3EE, 1%), $base_color); 
+  color: if($variant == 'light', $headerbar_color, $fg_color);
 
   .frame{
     border: none;
@@ -26,7 +27,7 @@
   }
 
   &:backdrop {
-    background-color: $backdrop_sidebar_bg_color;
+    background-color: if($variant == 'light', darken(#F4F3EE, 1%), $base_color);
     border-color: $backdrop_borders_color;
     transition: $backdrop_transition;
   }

@@ -303,6 +303,13 @@ LibraryWindow {
     }
 }
 
+.sidebar .expander {
+  label, .arrow {
+    color: $fg_color;
+    &:backdrop { color: $backdrop_fg_color; }
+  }
+}
+
 /**************************
  * Colors in context menu *
 **************************/

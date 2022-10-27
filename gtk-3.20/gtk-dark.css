@@ -4045,7 +4045,8 @@ treeview ~ scrollbar.vertical {
 .sidebar {
   border-style: none;
   border-width: 0;
-  background-color: #202b2f; }
+  background-color: #222e32;
+  color: #C3C7D1; }
   .sidebar .frame {
     border: none; }
   stacksidebar.sidebar:dir(ltr) list, stacksidebar.sidebar.left list, stacksidebar.sidebar.left:dir(rtl) list, .sidebar:dir(ltr), .sidebar.left, .sidebar.left:dir(rtl) {
@@ -4057,7 +4058,7 @@ treeview ~ scrollbar.vertical {
     border-left: 1px solid rgba(238, 238, 238, 0.1);
     border-right-style: none; }
   .sidebar:backdrop {
-    background-color: #212c31;
+    background-color: #222e32;
     border-color: rgba(97, 104, 106, 0.19);
     transition: 200ms ease-out; }
   .sidebar list {
@@ -5822,6 +5823,11 @@ LibraryWindow .the-button-in-the-combobox {
   border: none; }
   .sidebar.source-list.view.fill-block, iconview.sidebar.source-list.fill-block, .sidebar.source-list.view.fill-block:hover, iconview.sidebar.source-list.fill-block:hover, .sidebar.source-list.view.fill-block:selected, iconview.sidebar.source-list.fill-block:selected, .sidebar.source-list.view.fill-block:selected:focus, iconview.sidebar.source-list.fill-block:selected:focus {
     background: linear-gradient(#00b0ff, #00b0ff); }
+
+.sidebar .expander label, .sidebar .expander .arrow {
+  color: #C3C7D1; }
+  .sidebar .expander label:backdrop, .sidebar .expander .arrow:backdrop {
+    color: #71787f; }
 
 /**************************
  * Colors in context menu *
