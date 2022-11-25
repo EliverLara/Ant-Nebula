@@ -22,7 +22,7 @@ stage {
     color: #fefefe;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
-    box-shadow: none;
+    box-shadow: none !important;
     border: 1px solid #1c1f25; }
   .button:insensitive, .app-folder-dialog .edit-folder-button:insensitive, .quick-settings-system-item .icon-button:insensitive {
     color: #737780;
@@ -70,14 +70,14 @@ stage {
     color: #fefefe;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
-    box-shadow: none;
+    box-shadow: none !important;
     border: 1px solid #1c1f25; }
     .modal-dialog-linked-button:focus:hover {
       background-color: #353945;
       color: #fefefe;
       text-shadow: 0 1px black;
       icon-shadow: 0 1px black;
-      box-shadow: none;
+      box-shadow: none !important;
       border: 1px solid #1c1f25; }
   .modal-dialog-linked-button:hover {
     color: #fefefe;
@@ -502,7 +502,7 @@ StScrollBar {
       border-radius: 0 0 6px 6px; }
     .popup-sub-menu .popup-menu-item:active, .popup-sub-menu .popup-menu-item.selected, .popup-sub-menu .popup-menu-item:hover, .popup-sub-menu .popup-menu-item:focus {
       background-color: #373c48 !important;
-      color: #C3C7D1; }
+      color: #C3C7D1 !important; }
 
 .popup-menu-content {
   padding: 6px;
@@ -520,7 +520,7 @@ StScrollBar {
     padding-right: 6px; }
   .popup-menu-item:active, .popup-menu-item.selected, .popup-menu-item:hover, .popup-menu-item:focus {
     background-color: #30343f !important;
-    color: #C3C7D1; }
+    color: #C3C7D1 !important; }
   .popup-menu-item:checked {
     background-color: rgba(0, 176, 255, 0.8) !important;
     color: #fefefe !important;
@@ -1630,7 +1630,7 @@ StScrollBar {
     color: #fefefe;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
-    box-shadow: none;
+    box-shadow: none !important;
     border: 1px solid #1c1f25; }
   .keyboard-key:hover, .keyboard-key:checked {
     color: #fefefe;
