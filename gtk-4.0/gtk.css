@@ -2988,7 +2988,7 @@ menu, .menu, .context-menu {
   margin: 4px;
   padding: 2px 0px;
   background-color: #f8f8f8;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: nopne;
   font: initial; }
   .csd menu,
   .csd .menu,
@@ -3436,7 +3436,7 @@ popover.menu {
         background-color: #d4d4d4;
         border-color: #d4d4d4; }
   popover.menu > arrow, popover.menu.background > contents {
-    background-color: #ff007a;
+    background-color: #f8f8f8;
     color: #31363d;
     padding: 5px; }
   popover.menu.background separator {

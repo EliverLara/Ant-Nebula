@@ -120,7 +120,7 @@ popover.menu {
 
   & > arrow,
   &.background > contents {
-    background-color: $red;
+    background-color: $popover_bg_color;
     color: $fg_color;
     padding: 5px;
   }
