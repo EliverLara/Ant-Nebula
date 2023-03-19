@@ -15,7 +15,11 @@
     background-clip: padding-box;
     border: 1px solid $borders_color;
     box-shadow: 0 4px 6px transparentize(black, 0.6);
+    color: $fg_color;
+ //   label { color:red;}
   }
+
+  button { @extend %button; }
 
   &:backdrop {
     background-color: transparent;

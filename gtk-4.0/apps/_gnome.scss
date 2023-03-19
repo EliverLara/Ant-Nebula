@@ -119,7 +119,6 @@
     background: lighten($headerbar_color, 2%); 
     color: $headerbar_fg_color;
     caret-color: $headerbar_fg_color;
-    *{ color: $headerbar_fg_color; }
 
     #NautilusQueryEditorTag {
       > button {
