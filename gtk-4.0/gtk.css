@@ -2988,7 +2988,7 @@ menu, .menu, .context-menu {
   margin: 4px;
   padding: 2px 0px;
   background-color: #f8f8f8;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: nopne;
   font: initial; }
   .csd menu,
   .csd .menu,
@@ -3372,7 +3372,7 @@ popover.background {
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-    color: #ff007a; }
+    color: #31363d; }
     popover.background > arrow label, popover.background > arrow button,
     popover.background > contents label,
     popover.background > contents button {
@@ -3436,7 +3436,7 @@ popover.menu {
         background-color: #d4d4d4;
         border-color: #d4d4d4; }
   popover.menu > arrow, popover.menu.background > contents {
-    background-color: #ff007a;
+    background-color: #f8f8f8;
     color: #31363d;
     padding: 5px; }
   popover.menu.background separator {
