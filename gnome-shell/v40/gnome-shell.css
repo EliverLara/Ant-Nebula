@@ -147,7 +147,7 @@ StScrollBar {
   -barlevel-background-color: rgba(195, 199, 209, 0.2);
   -barlevel-border-width: 2px;
   -barlevel-border-color: transparent;
-  -barlevel-active-background-color: #f3d56e;
+  -barlevel-active-background-color: #00b0ff;
   -barlevel-active-border-color: transparent;
   -barlevel-overdrive-color: #9b1b32;
   -barlevel-overdrive-border-color: transparent;
@@ -2012,7 +2012,7 @@ StScrollBar {
       to extend to the border */ }
   .quick-toggle:checked {
     color: #00b0ff;
-    background-color: #383d4a;
+    background-color: #3f4452;
     border: 1px solid #1c1f25;
     text-shadow: none;
     icon-shadow: none;
