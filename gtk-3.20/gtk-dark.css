@@ -1025,7 +1025,7 @@ popover.background radiobutton,
   modelbutton.flat:hover, popover.background checkbutton:hover,
   popover.background radiobutton:hover,
   .menuitem.button.flat:hover {
-    background-color: #d7d7d7; }
+    background-color: #d4d4d4; }
   modelbutton.flat check:last-child, popover.background checkbutton check:last-child,
   popover.background radiobutton check:last-child,
   modelbutton.flat radio:last-child,
@@ -6229,7 +6229,7 @@ ConversationListView {
   -gtk-icon-transform: scale(0.72); }
 
 scrolledwindow.sidebar treeview.view {
-  background: #f8f8f8;
+  background: #eeece5;
   padding: 1.5px;
   border: none;
   box-shadow: none; }
@@ -6247,5 +6247,19 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
   outline: none;
   border: none;
   box-shadow: none; }
+
+.thunar scrolledwindow.sidebar treeview.view:hover {
+  background-color: #eeece5;
+  color: #00b0ff; }
+.thunar scrolledwindow.sidebar treeview.view:selected {
+  color: #00b0ff;
+  border-radius: 4px;
+  text-shadow: none;
+  background-color: #1b1c22;
+  border: 1px solid #0f1014;
+  background-color: #eeece5;
+  border-radius: 0;
+  box-shadow: none;
+  border: none; }
 
 /*# sourceMappingURL=gtk-dark.css.map */
