@@ -1067,7 +1067,7 @@ popover.background radiobutton,
   modelbutton.flat:hover, popover.background checkbutton:hover,
   popover.background radiobutton:hover,
   .menuitem.button.flat:hover {
-    background-color: #28363b; }
+    background-color: #182023; }
   modelbutton.flat check:last-child, popover.background checkbutton check:last-child,
   popover.background radiobutton check:last-child,
   modelbutton.flat radio:last-child,
@@ -6297,10 +6297,10 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
   box-shadow: none; }
 
 /* thunar sidepane */
-window.thunar paned > scrolledwindow treeview.view:hover {
+.thunar scrolledwindow.sidebar treeview.view:hover {
   background-color: #f2f1eb;
   color: #00b0ff; }
-window.thunar paned > scrolledwindow treeview.view:selected {
+.thunar scrolledwindow.sidebar treeview.view:selected {
   background-color: transparent;
   color: #00b0ff;
   box-shadow: none;
