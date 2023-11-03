@@ -1,11 +1,15 @@
-.xfce4-panel.panel {
+.xfce4-panel {
+
+  border-radius: 0;
+  &.panel {
     background-color: $panel_bg_color;
     color: $panel_fg_color;
 
     text-shadow: none;
     -gtk-icon-shadow: none;
 
-    button.flat { @extend %panelbutton; }
+    button.flat:not(.open_group) { @extend %panelbutton; }
+  }
 }
 
 #tasklist-button {
@@ -44,4 +48,26 @@
 
       label, image { color: inherit; }
     }
+}
+
+/* Vala-appmenu-plugin*/
+
+.-vala-panel-appmenu-core scrolledwindow,
+.-vala-panel-appmenu-private > menuitem,
+.-vala-panel-appmenu-private > menuitem:first-child > label {
+    color: $panel_fg_color;
+}
+
+// Whisker menu tweaks
+
+#whiskermenu-window button {
+  background-color:transparent;
+  border: none;
+  border-radius: 0;
+  font-weight: normal;
+  padding: 3px;
+  margin: 1px 2px;
+  &:hover, &:checked {
+      background-color: $selected_bg_color;
+  }
 }
