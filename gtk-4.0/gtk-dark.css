@@ -1052,11 +1052,11 @@ button.color {
     button.color colorswatch:only-child:disabled, button.color colorswatch:only-child:backdrop {
       box-shadow: none; }
 
-notebook button, list button, .view button, iconview button, popover button {
+notebook button, list button, popover button {
   box-shadow: none; }
-  notebook button:backdrop, list button:backdrop, .view button:backdrop, iconview button:backdrop, popover button:backdrop {
+  notebook button:backdrop, list button:backdrop, popover button:backdrop {
     box-shadow: none; }
-notebook .linked > button, list .linked > button, .view .linked > button, iconview .linked > button, popover .linked > button {
+notebook .linked > button, list .linked > button, popover .linked > button {
   box-shadow: none; }
 
 /************
@@ -2608,6 +2608,13 @@ window.csd > .titlebar:not(headerbar) {
   background: #23262E; }
 .titlebar button:active {
   color: #00b0ff; }
+
+.sidebar-pane .top-bar, .sidebar-pane .top-bar headerbar, .content-pane .top-bar, .content-pane .top-bar headerbar {
+  background-color: #23262E; }
+
+.nautilus-window .sidebar-pane .top-bar headerbar {
+  padding-top: 2px;
+  padding-bottom: 2px; }
 
 /**************
  * GtkInfoBar *
@@ -5556,9 +5563,6 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   .nautilus-window.background:backdrop {
     background-color: rgba(240, 240, 240, 0.95); }
 .nautilus-window #NautilusPathBar {
-  height: 20px;
-  margin-top: 7px;
-  margin-bottom: 7px;
   color: #f8f8f8;
   border-radius: 4px;
   text-shadow: none;
@@ -5609,8 +5613,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
     padding: 0px 0px 0px 12px;
     border-radius: 4px 0px 0px 4px; }
 .nautilus-window #NautilusQueryEditor {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 6px;
   box-shadow: none;
   background: #272b34;
   color: #f8f8f8;

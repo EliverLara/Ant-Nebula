@@ -56,9 +56,7 @@
 
     // Gnome 43 path-bar
     #NautilusPathBar {
-    height: 20px;
-    margin-top: 7px;
-    margin-bottom: 7px;
+
     @include button(normal-header);
 
     .dim-label {
@@ -113,8 +111,7 @@
   // search entry
   #NautilusQueryEditor { 
 
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 6px;
     box-shadow: none;
     background: lighten($headerbar_color, 2%); 
     color: $headerbar_fg_color;
