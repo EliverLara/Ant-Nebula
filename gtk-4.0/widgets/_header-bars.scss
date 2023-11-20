@@ -287,8 +287,8 @@ headerbar {
   separator:not(.sidebar),
   button,
   menubutton {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
   }
   // Reset margins for buttons inside menubutton
   menubutton > button,
@@ -349,4 +349,20 @@ headerbar {
   button:active {
     color: $selected_bg_color;
   }
+}
+
+
+// Gnome 45
+
+.sidebar-pane, .content-pane {
+  .top-bar {
+    &, headerbar {
+      background-color: $headerbar_color;
+    }
+  }
+}
+
+.nautilus-window .sidebar-pane .top-bar headerbar {
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
