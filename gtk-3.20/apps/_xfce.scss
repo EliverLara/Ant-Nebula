@@ -9,6 +9,12 @@
     -gtk-icon-shadow: none;
 
     button.flat:not(.open_group) { @extend %panelbutton; }
+
+    //Systemload-plugin
+    progressbar trough {
+      background-color: transparentize(white, 0.86);
+    }
+
   }
 }
 
