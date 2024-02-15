@@ -2733,7 +2733,8 @@ infobar {
       box-shadow: none; }
 
 .info {
-  background-color: #84ff39; }
+  background-color: #84ff39;
+  color: #C3C7D1; }
   .info:backdrop {
     background-color: #a4ff6c;
     color: #fefefe; }
@@ -2745,7 +2746,8 @@ infobar {
     color: #fefefe; }
 
 .question {
-  background-color: #00e8c6; }
+  background-color: #00e8c6;
+  color: #C3C7D1; }
   .question:backdrop {
     background-color: #1cffde;
     color: #fefefe; }
