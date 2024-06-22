@@ -5690,6 +5690,19 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   border: 0;
   background-color: #dcdcdc; }
 
+/*******************
+ * Calendar events *
+********************/
+.color-light.timed label, .color-light .event-popover label {
+  color: #31363d;
+  opacity: 1; }
+.color-light label {
+  color: #31363d;
+  opacity: 1; }
+
+.circular.day {
+  color: #f8f8f8; }
+
 /********
  * Gala *
  *******/
