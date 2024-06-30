@@ -1824,7 +1824,7 @@ entry {
       border-left-color: #00b0ff; }
   .linked:not(.vertical) > spinbutton:not(.vertical) + .popup button, spinbutton.vertical.linked:not(.vertical) > text + .popup button, .linked:not(.vertical) >
   entry + .popup button {
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid #c3c3c3;
     border-radius: 0px 3px 3px 0px; }
 .linked.vertical > spinbutton:not(:disabled):not(.vertical) + entry:not(:disabled), spinbutton.vertical.linked > text:not(:disabled) + entry:not(:disabled), .linked.vertical > spinbutton:not(:disabled):not(.vertical) + spinbutton:not(:disabled):not(.vertical), spinbutton.vertical.linked > text:not(:disabled) + spinbutton:not(:disabled):not(.vertical), spinbutton.vertical.linked > spinbutton:not(:disabled):not(.vertical) + text:not(:disabled), spinbutton.vertical.linked > text:not(:disabled) + text:not(:disabled), .linked.vertical >
 entry:not(:disabled) + entry:not(:disabled), .linked.vertical >
@@ -4095,6 +4095,15 @@ placessidebar.sidebar, .nautilus-window .navigation-sidebar {
   placessidebar.sidebar list, .nautilus-window .navigation-sidebar list {
     background-color: transparent; }
     placessidebar.sidebar list:backdrop, .nautilus-window .navigation-sidebar list:backdrop {
+      background-color: transparent; }
+
+.bottom-bar {
+  background-color: #eaeaea; }
+  .bottom-bar button {
+    background-color: transparent;
+    border: none;
+    border-radius: 0px; }
+    .bottom-bar button .view, .bottom-bar button iconview {
       background-color: transparent; }
 
 /*****************
