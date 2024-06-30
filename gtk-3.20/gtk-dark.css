@@ -2734,7 +2734,7 @@ infobar {
 
 .info {
   background-color: #84ff39;
-  color: #C3C7D1; }
+  color: #31363d; }
   .info:backdrop {
     background-color: #a4ff6c;
     color: #fefefe; }
@@ -2747,7 +2747,7 @@ infobar {
 
 .question {
   background-color: #00e8c6;
-  color: #C3C7D1; }
+  color: #31363d; }
   .question:backdrop {
     background-color: #1cffde;
     color: #fefefe; }
@@ -5575,10 +5575,10 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
  * Calendar events *
 ********************/
 .color-light.timed label {
-  color: #C3C7D1;
+  color: #31363d;
   opacity: 1; }
 .week-view .color-light.timed label, .color-light label, .year-view .color-light:not(.timed) label {
-  color: #C3C7D1;
+  color: #31363d;
   opacity: 1; }
 
 /********
