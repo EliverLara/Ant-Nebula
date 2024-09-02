@@ -8,9 +8,9 @@
    height="20"
    version="1.1"
    id="svg11992"
-   sodipodi:docname="switch-slider-insensitive.svg"
+   sodipodi:docname="switch-slider-insensitive-dark.svg"
    inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
-   inkscape:export-filename="switch-slider-insensitive@2.png"
+   inkscape:export-filename="switch-slider-insensitive-dark@2.png"
    inkscape:export-xdpi="180"
    inkscape:export-ydpi="180"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -45,7 +45,7 @@
      showgrid="false"
      inkscape:zoom="32"
      inkscape:cx="0.90625"
-     inkscape:cy="3.78125"
+     inkscape:cy="11.28125"
      inkscape:window-width="2560"
      inkscape:window-height="1372"
      inkscape:window-x="0"
@@ -86,7 +86,7 @@
      id="rect912"
      style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:0.2;fill-rule:nonzero;stroke:none;stroke-width:1.76471;stroke-opacity:1;marker:none;filter:url(#filter930);enable-background:new" />
   <rect
-     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.76471;stroke-opacity:1;marker:none;enable-background:new;opacity:1"
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#1e282c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.76471;stroke-opacity:1;marker:none;enable-background:new;opacity:1"
      id="rect3872"
      width="15"
      height="15"
@@ -94,7 +94,7 @@
      y="2.5403371"
      ry="7.392344" />
   <path
-     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:0.2;fill-rule:nonzero;stroke:none;stroke-width:1.76471;stroke-opacity:1;marker:none;enable-background:new"
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:0.2;fill-rule:nonzero;stroke:none;stroke-width:1.76471;stroke-opacity:1;marker:none;enable-background:new"
      d="m 9.9310933,2.5403342 c -4.09536,0 -7.39258,3.29722 -7.39258,7.39258 v 0.2148398 c 0,0.1326 0.0127,0.26174 0.0195,0.39258 0.20406,-3.9101898 3.41029,-6.9999998 7.37305,-6.9999998 h 0.2148397 c 3.962759,0 7.168989,3.08981 7.373049,6.9999998 0.007,-0.13084 0.0195,-0.25998 0.0195,-0.39258 V 9.9329142 c 0,-4.09536 -3.29722,-7.39258 -7.392579,-7.39258 z"
      id="rect936"
      inkscape:connector-curvature="0" />
