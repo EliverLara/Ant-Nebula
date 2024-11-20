@@ -353,7 +353,9 @@ headerbar {
   }
 }
 
-.nautilus-window .sidebar-pane .top-bar headerbar {
-  padding-top: 2px;
-  padding-bottom: 2px;
+.nautilus-window, #NautilusFileChooser {
+  .sidebar-pane .top-bar headerbar {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
 }
