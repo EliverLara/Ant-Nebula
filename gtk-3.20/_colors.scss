@@ -10,7 +10,7 @@ $switch_bg: if($variant == 'light', #ffffff, transparentize(black,1));
 $shadow_color: rgba(162, 162, 165, 0.21);
 
 $main_dark_color: #1F2128;
-$_sidebar_color: if($variant == 'light', darken(#F4F3EE, 3%), $main_dark_color);
+$_sidebar_color: if($variant == 'light', mix($bg_color, $base_color, 50%), $main_dark_color);
 
 // Primary colors
 $lime: #84ff39;

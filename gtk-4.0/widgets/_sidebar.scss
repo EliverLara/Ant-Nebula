@@ -116,17 +116,17 @@ stacksidebar {
 
 /*--*/
 
-placessidebar.sidebar, .nautilus-window .navigation-sidebar{
+placessidebar {
 		background-color: transparent;
-		background-image:linear-gradient(to right, darken(#F4F3EE, 10%) 40px,
+		background-image:linear-gradient(to right, darken($_sidebar_color, 10%) 40px,
 												$_sidebar_color 35px,$_sidebar_color 36px,
 												$_sidebar_color 36px,$_sidebar_color 99%, 
 												$_sidebar_color 100%);
 		row{
+      padding: 1px 11px;
 			&.sidebar-row {
         margin: 0;
         border-radius: 0;
-        padding: 1px 11px;
         label { padding-left: 8px; }
 				&.sidebar-row{
 					.sidebar-icon {
@@ -147,7 +147,7 @@ placessidebar.sidebar, .nautilus-window .navigation-sidebar{
 				&:selected{
           &, label { color: $selected_bg_color;}
 					background-color: transparent;
-					background-image:linear-gradient(to right, darken(#F4F3EE, 17%) 40px,
+					background-image:linear-gradient(to right, darken($_sidebar_color, 17%) 40px,
 																rgba(65,67,75,0) 36px, rgba(65,67,75,0)97%);
 					&:hover{
 						color: $selected_bg_color;
@@ -160,7 +160,7 @@ placessidebar.sidebar, .nautilus-window .navigation-sidebar{
           &:backdrop{
             color: $backdrop_selected_bg_color;
             background-color: transparent;
-            background-image:linear-gradient(to right, darken(#F4F3EE, 17%) 40px,
+            background-image:linear-gradient(to right, darken($_sidebar_color, 17%) 40px,
                                   rgba(65,67,75,0) 36px, rgba(65,67,75,0)97%);
           }
 
@@ -195,7 +195,7 @@ placessidebar.sidebar, .nautilus-window .navigation-sidebar{
 
 // Gnome 46: File operations status bar at the bottom of sidebar
 .bottom-bar  {
-  background-color: mix($bg_color, $base_color, 50%);
+  background-color: $_sidebar_color;
   button {
     background-color: transparent;
     border: none;
