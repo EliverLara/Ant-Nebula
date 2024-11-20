@@ -1,7 +1,7 @@
 /***********
  * Sidebar *
  ***********/
-.sidebar, .nautilus-window .navigation-sidebar {
+.sidebar, placessidebar {
   border-style: none;
   border-width: 0;
   background-color: mix($bg_color, $base_color, 50%);
@@ -35,7 +35,7 @@
 
   row{
     margin: 0;
-    padding: 3px 12px;
+    padding: 8px 12px;
     border-radius: 0;
     &:selected{
       background: transparent;
@@ -119,12 +119,17 @@ stacksidebar {
 placessidebar {
   > viewport.frame { border-style: none; }
 
+  list { &, &:backdrop { background-color: mix($bg_color, $base_color, 50%); }}
+
   row {
     padding: 1px 11px;
   
     label { padding-left: 8px; }
     &.sidebar-new-bookmark-row { color: $selected_bg_color; }
-
+    &.sidebar-row {
+      &:selected:backdrop { background-color: transparent; }
+      &:selected:hover { background-color: transparentize($selected_bg_color, 0.8); }
+    }
     &:drop(active):not(:disabled) {
       &, label, image { color: $drop_target_color; }
 
