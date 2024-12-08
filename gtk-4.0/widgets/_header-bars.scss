@@ -4,7 +4,7 @@
 %titlebar,
 headerbar {
   padding: 0 6px;
-  min-height: 27px;
+  min-height: 38px;
   background-color: $headerbar_color;
   color: $headerbar_fg_color;
   border-radius: 0;
@@ -360,9 +360,4 @@ headerbar {
       background-color: $headerbar_color;
     }
   }
-}
-
-.nautilus-window .sidebar-pane .top-bar headerbar {
-  padding-top: 1px;
-  padding-bottom: 1px;
 }
