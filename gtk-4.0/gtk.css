@@ -2259,7 +2259,7 @@ GraniteWidgetsWelcome {
  ***************/
 .titlebar:not(headerbar), headerbar {
   padding: 0 6px;
-  min-height: 27px;
+  min-height: 38px;
   background-color: #23262E;
   color: #f8f8f8;
   border-radius: 0; }
@@ -2747,10 +2747,6 @@ window.csd > .titlebar:not(headerbar) {
 
 .sidebar-pane .top-bar, .sidebar-pane .top-bar headerbar, .content-pane .top-bar, .content-pane .top-bar headerbar {
   background-color: #23262E; }
-
-.nautilus-window .sidebar-pane .top-bar headerbar {
-  padding-top: 1px;
-  padding-bottom: 1px; }
 
 /**************
  * GtkInfoBar *
