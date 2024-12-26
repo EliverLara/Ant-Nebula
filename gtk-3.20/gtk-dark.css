@@ -6360,9 +6360,8 @@ window.thunar toolbar.horizontal entry {
   min-height: 28px;
   padding: 5px;
   color: #C3C7D1;
-  border: 1px solid rgba(238, 238, 238, 0.1);
-  border-radius: 3px;
-  box-shadow: inset 0 1px rgba(0, 0, 0, 0.9), inset 1px 0 rgba(0, 0, 0, 0.96), inset -1px 0 rgba(0, 0, 0, 0.96), inset 0 -1px rgba(0, 0, 0, 0.98), 0 1px rgba(255, 255, 255, 0.6); }
+  border: 1px solid #00b0ff;
+  border-radius: 3px; }
   .nemo-window .nemo-window-pane widget.entry:selected {
     background-color: #00b0ff;
     color: #fefefe; }
@@ -6387,6 +6386,8 @@ window.thunar toolbar.horizontal entry {
 .nemo-window .nemo-inactive-pane .view:not(:selected), .nemo-window .nemo-inactive-pane iconview:not(:selected),
 .nemo-window .nemo-inactive-pane iconview {
   background-color: #1a2226; }
+.nemo-window grid > paned > separator {
+  background-image: image(#202b2f); }
 
 .caja-notebook .frame {
   border-width: 0 0 1px; }
