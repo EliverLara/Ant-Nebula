@@ -70,45 +70,39 @@
   .current-dir  {
     label { padding: 1px 12px; }
 
-    label, image { @include button(active, transparentize($selected_bg_color, 0.3), #fff); }
+    label, image { @include button(active, $selected_bg_color, $selected_fg_color); }
   }
 
   button.current-dir:only-child {
     image {
       margin-right: -6px;
       padding: 0px 0px 0px 12px;
-      border-radius: 4px 0px 0px 4px;
+      border-radius: 6px 0px 0px 6px;
     }
   }
 }
 
 // search entry
 #NautilusQueryEditor { 
-
-  margin-top: 6px;
-  box-shadow: none;
   background: lighten($headerbar_color, 2%); 
   color: $headerbar_fg_color;
   caret-color: $headerbar_fg_color;
+  border-color: $dark_borders_color;
+  &:focus-within { @include entry(focus); }
 
-  #NautilusQueryEditorTag {
-    > button {
-      margin: 0;
-    }
+  > text { 
+    background-color: transparent; 
+    color: $headerbar_fg_color;
   }
 
   > menubutton > button {
-    min-width: 16px;
-    min-height: 16px;
-    margin: 0;
     -gtk-icon-size: 12px;
-    padding: 0 4px;
-    &:hover, &:active, &:checked {
-      image { color: $selected_fg_color; }
-    }
+    padding: 0 2px;
   }
 
-  image { color: $headerbar_fg_color; }
+  image {
+    color: $headerbar_fg_color;
+  }
 
   > text, > image { margin: 0; }
 }
