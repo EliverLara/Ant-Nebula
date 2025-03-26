@@ -2318,6 +2318,7 @@ $base_padding: 6px;
   & .quick-toggle-menu-button {
     background-color: lighten($bg_color, 6%);
     &:hover { background-color: lighten($base_color, 13%);}
+    &:checked { background-color: lighten($base_color, 14%);}
   }
 
   & .quick-toggle-separator { width: 0px; }
