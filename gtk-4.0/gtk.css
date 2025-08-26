@@ -5919,6 +5919,25 @@ headerbar .nautilus-window .path-bar-box .subtitle {
 .circular.day {
   color: #f8f8f8; }
 
+/*******************
+ * Calendar sidebar *
+********************/
+datechooser {
+  background-color: #23262E; }
+  datechooser button {
+    color: #f8f8f8; }
+  datechooser .circular.day.flat.text-button.other-month, datechooser .circular.day.flat.text-button.non-workday {
+    color: #87898d; }
+
+agenda-view list.background {
+  padding: 8px; }
+  agenda-view list.background, agenda-view list.background:backdrop {
+    background-color: #23262E; }
+  agenda-view list.background .caption-heading, agenda-view list.background .dim-label.no-events, agenda-view list.background label.no-events.separator, agenda-view list.background .titlebar:not(headerbar) .no-events.subtitle, .titlebar:not(headerbar) agenda-view list.background .no-events.subtitle,
+  agenda-view list.background headerbar .no-events.subtitle,
+  headerbar agenda-view list.background .no-events.subtitle {
+    color: #f8f8f8; }
+
 /******************************
  * Gnome system monitor graph *
 ******************************/
@@ -6686,5 +6705,32 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
   box-shadow: none; }
   .caja-pathbar button:hover, .caja-pathbar button:hover label, .caja-pathbar button:active, .caja-pathbar button:active label, .caja-pathbar button:checked, .caja-pathbar button:checked label, .caja-pathbar button:backdrop:active, .caja-pathbar button:backdrop:active label, .caja-pathbar button:backdrop:checked, .caja-pathbar button:backdrop:checked label {
     color: #00b0ff; }
+
+.colorpad {
+  color: @colorpad_fg_color; }
+  .colorpad, .colorpad:backdrop, .colorpad:hover, .colorpad:hover:backdrop, .colorpad:active, .colorpad:active:backdrop, .colorpad:checked, .colorpad:checked:backdrop {
+    background-color: @colorpad_color; }
+  .colorpad:hover {
+    filter: brightness(93%); }
+  .colorpad:active {
+    filter: brightness(86%); }
+  .colorpad:checked {
+    filter: brightness(100%);
+    box-shadow: 0px 0px 0px 1.5px #00b0ff, inset 0px -3px 0px 0px @colorpad_fg_color; }
+
+.colorsetter {
+  color: colorsetter_fg_color; }
+  .colorsetter, .colorsetter:backdrop, .colorsetter:hover, .colorsetter:hover:backdrop, .colorsetter:active, .colorsetter:active:backdrop, .colorsetter:checked, .colorsetter:checked:backdrop {
+    background-color: @colorsetter_color; }
+  .colorsetter:hover {
+    filter: brightness(93%); }
+  .colorsetter:active {
+    filter: brightness(86%); }
+  .colorsetter:checked {
+    filter: brightness(100%); }
+
+.overlay_toolbar, .overlay_toolbar_scrollable {
+  background: white;
+  padding: 10px; }
 
 /*# sourceMappingURL=gtk.css.map */
