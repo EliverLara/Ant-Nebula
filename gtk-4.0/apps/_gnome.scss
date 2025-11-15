@@ -151,21 +151,17 @@
     opacity: 1;
   }
 }
-.circular.day { color: $headerbar_fg_color; }
-
 /*******************
  * Calendar sidebar *
 ********************/
 datechooser {
-  .flat { 
-    color: $headerbar_fg_color;
-  }
   .circular.day.text-button{ 
     padding: 6px;
     border-radius: 50%;
     min-height: 22px;
     min-width: 22px;
     border: none;
+    color: $fg_color;
     &.flat.other-month, &.flat.non-workday {
       color: $insensitive_fg_color;
     }
@@ -175,20 +171,30 @@ datechooser {
       font-weight: bold;
     }
   }
+  .weekday, .weeknum { color: $insensitive_fg_color;}
+  .weeknum { background-color: darken($sidebar_bg_color, 4%);}
+  .current-week { background-color: transparentize($insensitive_fg_color, 0.9);}
 }
 
 agenda-view list.background {
   padding: 8px;
   .caption-heading, .dim-label.no-events {
-    color: $headerbar_fg_color;
+    color: $fg_color;
   }
 }
 
-datechooser, agenda-view list.background {
+datechooser,
+agenda-view list.background,
+.calendar-list {
   &, &:backdrop { 
-    background-color: $headerbar_color;  
+    background-color: $sidebar_bg_color;  
   }
 }
+// Calendar popover on Gnome 49
+popover datechooser {
+  background-color: transparent;
+}
+
 
 /******************************
  * Gnome system monitor graph *
