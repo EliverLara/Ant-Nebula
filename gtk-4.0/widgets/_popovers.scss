@@ -19,8 +19,6 @@
  //   label { color:red;}
   }
 
-  button { @extend %button; }
-
   &:backdrop {
     background-color: transparent;
     box-shadow: none;
